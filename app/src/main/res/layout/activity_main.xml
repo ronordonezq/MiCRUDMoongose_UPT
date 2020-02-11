@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C reate"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:onClick="crear_producto"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R ead"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:onClick="leer_producto"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="U pdate"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:onClick="actualizar_producto"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D elete"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:onClick="eliminar_producto"
+        />
+</LinearLayout>
